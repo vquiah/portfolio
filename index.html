@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Victory's Digital Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="./style/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Victory Quiah</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack Dev</p>
+            <img src="img/me.png" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        <!--My Stack-->
+            <section class="skill_stack_container">
+                <h4 class="skill_stact_intro">I Specialize in MERN </h4>
+                <div class="skill_stack">
+                <img src="./img/js-icon.png" alt="javascript" class="skills_stack_img">
+                <img src="./img/react.svg" alt="react" class="skills_stack_img">
+                <img src="./img/node.svg" alt="node" class="skills_stack_img">
+                <img src="./img/db.png" alt="mongodb" class="skills_stack_img">
+                <img src="./img/expressjs.svg" alt="express" class="skills_stack_img">
+                <img src="./img/sql-icon.png" alt="sql" class="skills_stack_img">
+                <img src="./img/sass-icon.png" alt="sass" class="skills_stack_img">
+                </div>
+                <div class="btns">
+                    <a href="#work" class="btn">My Work</a>
+                    <a href="#footer" class="btn">Contact Me</a>
+                </div>
+                
+            </section>
+
+        <!--My Stack Ends-->
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Need a Website?</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>CONSULTATION</h3>
+                    <p>We begin with talking about what project you want to create.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>PROPOSAL</h3>
+                    <p>Let's capture your ideas and translate them to the web! Your website will be fully customized to you and/or your company! We will go over the contract, after a plan of action is presented.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>DEVELOPMENT</h3>
+                    <p>I will build your website using HTML, CSS and JavaScript/React. After development, we can work together to deploy your website and utilize your custom Domain Name. You will receive weekly updates on the product while in development.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>LAUNCH</h3>
+                    <p>The final product is delivered!</p>
+                </div> <!-- / service -->
+
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Freelancer and Full-Stack Software Engineer</p>
+           
+           <div class="about-me__body">
+               <p>I freelance for small business in the local Phoneix Metroplian area. <cite>"I worry about web-designing, while you handle the rest of your business. Let me help you bring your bussiness to a large audiance"</cite> </p>
+               <p>When I am not coding, I love to be in the great outdoors. My favroite places to explore in AZ are the red mountains of Sedona and Antelope Canyon. I am also a huge fan of Kdramas and foreign movies/songs. Feel free to reach out to me to about my projects, or to simply discuse some of your hobbies. I am always open to learning new things and meeting new people.</p>
+           </div>
+           
+           <img src="img/me2.jpg" alt="Jane leaning against a bus" class="about-me__img">
+
+           <div class="btns">
+            <a href="#work" class="btn">My Work</a>
+            <a href="#footer" class="btn">Contact Me</a>
+        </div>
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:vquiah@hotmail.com" class="footer__link">vquiah@hotmail.com</a>
+            <ul class="social-list">
+           
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/victoryquiah">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/vquiah">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/vquiah/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="./js/main.js"></script>
+        
+    </body>
+</html>
