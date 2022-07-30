@@ -82,7 +82,7 @@ strong { font-weight: var(--fw-bold) }
     font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-left: 10px;
+    margin: 10px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
@@ -261,7 +261,7 @@ header {
 .btns{
     text-align: center;
     margin-top: 25px;
-    padding-bottom: 0;
+    padding-bottom: 5;
 }
 cite{
     display: block;
