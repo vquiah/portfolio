@@ -85,6 +85,7 @@ strong { font-weight: var(--fw-bold) }
     margin: 10px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    border-radius: 15px;
 }
 
 .btn:hover {
@@ -435,12 +436,15 @@ cite::after {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center; 
+     
 }
 
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 90%;  
+    margin: auto;
 }
 
 .portfolio__item {
@@ -524,4 +528,69 @@ cite::after {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+/* =================================== */
+
+
+.btn:hover {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+video{
+    width: 100%;
+}
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
+
+.card {
+    background-color:transparent;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_content {
+    padding: 1rem;
+    background-color: #050606;
+}
+
+.card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+    border-right: 3px solid #16e0bd;
+}
+
+.card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
 }
